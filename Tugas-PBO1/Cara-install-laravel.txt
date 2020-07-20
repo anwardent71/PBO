@@ -1,0 +1,13 @@
+Cara Menginstall Laravel di Windows
+
+Untuk Proses Installasi Laravel saya menggunakan Command Prompt dengan melakukan 4 cara, tapi sebelum melakukan Installasi saya mendownload Composer terlebih dahulu.
+
+1. Buka Command Prompt (dengan cara memencet tombol windows + R, lalu ketik cmd, lalu tekan enter)
+2. Selanjutnya saya memasukkan perintah : cd \xampp\htdocs (untuk menuju ke direktori file server(direktori htdocs))
+3. Selanjutnya jika sudah masuk ke direktori htdocs, saya membuat request untuk mengambil(serta menginstall) file Laravel dengan menggunakan perintah : composer create-project --prefer-dist laravel/laravel nama_projectmu
+4. Setelah proses download file Laravel selesai (membutuhkan waktu yang lumayan lama sesuai dengan kecepatan koneksi kalian), nantinya akan ada folder baru pada direktori file server (htdocs) dengan nama sesuai nama project yang telah kalian tentukan sebelumnya. untuk memastikan bahwa Laravel sudah sukses terinstall dan siap untuk digunakan, masukkan perintah : php artisan serve , pada command prompt.
+
+Penjelasan perintah pada Nomor 3
+create-project : perintah untuk membuat project baru
+--prefer-dist : untuk memerintahkan download Laravel versi yang direkomendasikan atau versi yang stabil(terbaru)
+nama_projectmu : nama project laravel yang ingin anda buat
