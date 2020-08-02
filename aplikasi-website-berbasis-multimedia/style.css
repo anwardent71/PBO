@@ -1,0 +1,42 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.sidebar{
+    position: fixed;
+    left: 0;
+    width: 200px;
+    height: 100%;
+    background: #042331;
+}
+.container{
+    margin-left: 300px;
+}
+.sidebar img{
+    width: 200px;
+    height: 200px;
+}
+.sidebar header{
+    font-size: 25px;
+    color: white;
+    text-align: center;
+    line-height: 75px;
+    background: #063146;
+    user-select: none;
+}
+.sidebar ul a{
+    display: block;
+    height: 100%;
+    width: 100%;
+    line-height: 50px;
+    font-size: 20px;
+    color: white;
+    padding-left: 30px;
+    box-sizing: border-box;
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
+    transition: 1s;
+}
+ul li:hover a{
+    padding-left: 50px;
+}
